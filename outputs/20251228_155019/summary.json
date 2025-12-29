@@ -1,0 +1,44 @@
+{
+  "run_timestamp": "20251228_155019",
+  "data_summary": {
+    "n_samples": 1567,
+    "n_features": 590,
+    "n_pass": 1463,
+    "n_fail": 104,
+    "imbalance_ratio": 14.067307692307692,
+    "fail_rate": 6.636885768985322,
+    "total_missing_values": "41951",
+    "missing_percentage": 4.537548808583821,
+    "features_with_missing": "538",
+    "constant_features": "116",
+    "avg_missing_per_sample": 26.771537970644545,
+    "max_missing_per_sample": "152",
+    "avg_missing_per_feature": 71.10338983050848,
+    "max_missing_per_feature": "1429"
+  },
+  "preprocessing_report": {
+    "original_features": 590,
+    "final_features": 195,
+    "removed_high_missing": 24,
+    "removed_constant": 265,
+    "removed_correlated": 106,
+    "imputation_strategy": "median",
+    "scaling_method": "robust",
+    "missing_threshold": 0.5,
+    "correlation_threshold": 0.95
+  },
+  "best_model": "Logistic Regression",
+  "best_model_accuracy": 0.700308792458963,
+  "top_10_features": [
+    "sensor_129",
+    "sensor_124",
+    "sensor_059",
+    "sensor_033",
+    "sensor_064",
+    "sensor_510",
+    "sensor_126",
+    "sensor_122",
+    "sensor_065",
+    "sensor_205"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "ai_available": false,
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "Monitoring",
+      "recommendation": "Implement real-time monitoring for sensor_129 and sensor_124",
+      "expected_impact": "Early detection of 40-60% of potential failures"
+    },
+    {
+      "priority": "high",
+      "category": "Process Control",
+      "recommendation": "Set statistical control limits based on historical distributions of top sensors",
+      "expected_impact": "Reduce false alarms while maintaining sensitivity"
+    },
+    {
+      "priority": "medium",
+      "category": "Data Quality",
+      "recommendation": "Address missing data in 24 sensors",
+      "expected_impact": "Improve model reliability and feature coverage"
+    },
+    {
+      "priority": "medium",
+      "category": "Model Improvement",
+      "recommendation": "Collect more failure samples to address class imbalance",
+      "expected_impact": "Improve fail detection sensitivity from current levels"
+    },
+    {
+      "priority": "low",
+      "category": "Maintenance",
+      "recommendation": "Schedule preventive maintenance when anomaly scores exceed threshold",
+      "expected_impact": "Reduce unplanned downtime by 20-30%"
+    }
+  ]
+}
