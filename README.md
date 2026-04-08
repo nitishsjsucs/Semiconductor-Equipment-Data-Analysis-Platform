@@ -302,6 +302,15 @@ This project showcases the following competencies:
 
 ---
 
+## My Contributions
+
+- **AI-Driven Data Processing** — Built the intelligent data ingestion pipeline that automatically detects equipment data formats, handles missing values, and normalizes sensor readings across heterogeneous semiconductor tools.
+- **Causal Discovery Engine** — Implemented the causal inference module using PC algorithm and structural equation modeling to identify root-cause relationships between equipment parameters and yield outcomes.
+- **Classification Pipeline** — Developed the multi-class equipment state classification system with ensemble methods, achieving high accuracy on imbalanced manufacturing datasets.
+- **Interactive Analysis Platform** — Created the web-based analysis interface with drill-down capabilities, parameter correlation heatmaps, and equipment health trend visualization.
+
+---
+
 ## License
 
 This project is for educational and demonstration purposes.
